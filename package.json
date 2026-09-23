@@ -1,0 +1,28 @@
+{
+  "name": "labyrinth-maker",
+  "version": "1.0.0",
+  "description": "Labyrinth maker: draw the classical Cretan labyrinth, an 11-circuit Troy Town or your own design from a path sequence, walk it to the center, and export it as SVG or PNG.",
+  "repository": "github:evoluteur/labyrinth-maker",
+  "homepage": "https://evoluteur.github.io/labyrinth-maker/",
+  "copyright": "(c) 2026 Olivier Giulieri",
+  "author": "Olivier Giulieri (https://evoluteur.github.io/)",
+  "license": "MIT",
+  "keywords": [
+    "labyrinth",
+    "labyrinth-generator",
+    "cretan-labyrinth",
+    "classical-labyrinth",
+    "chartres",
+    "troy-town",
+    "path-sequence",
+    "walking-meditation",
+    "meditation",
+    "mindfulness",
+    "sacred-geometry",
+    "esoterica",
+    "svg",
+    "generator",
+    "pwa",
+    "javascript"
+  ]
+}

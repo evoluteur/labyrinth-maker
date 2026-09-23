@@ -1,0 +1,24 @@
+{
+  "name": "Labyrinth Maker",
+  "short_name": "Labyrinth",
+  "description": "Labyrinth maker: draw the classical Cretan labyrinth, an 11-circuit Troy Town or your own design from a path sequence, walk it to the center, and export it as SVG or PNG.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a212d",
+  "theme_color": "#1a212d",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

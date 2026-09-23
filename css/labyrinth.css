@@ -1,0 +1,58 @@
+.canvas-box {
+  background-color: var(--card-bg);
+  border: 3px solid var(--card-border);
+  border-radius: 10px;
+  overflow: hidden;
+  line-height: 0;
+}
+.canvas-box svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.canvas-box svg:hover {
+  fill: none;
+}
+.stage > .note {
+  margin: 10px 2px 0;
+  min-height: 1.4em;
+}
+.layout.info {
+  margin-top: 0;
+}
+.side.wide {
+  flex: 1 1 340px;
+  max-width: 560px;
+}
+#seq {
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 1.05em;
+  letter-spacing: 0.04em;
+  margin-top: 6px;
+}
+#seq[aria-invalid="true"] {
+  border-color: #e0533d;
+}
+.note.error {
+  color: #ff8a73;
+  opacity: 1;
+  margin: 0 0 10px;
+}
+#stats {
+  max-width: 1000px;
+}
+
+/* keep the title clear of the theme toggle and GitHub link on phones */
+@media only screen and (max-width: 560px) {
+  #omg-header h1 {
+    padding-right: 205px;
+    font-size: 1.4rem;
+  }
+}
+
+/* evol-blue theme: give the stat tiles (circuits, turns, sequence, path)
+   the same card background as the panels, so they don't sit on the bare
+   blue page (the theme link's href tells which theme is on) */
+html:has(#omg-theme-css[href*="evol-blue"]) #stats .stat {
+  background-color: var(--card-bg);
+}
