@@ -120,7 +120,7 @@
 
 /* "Draw one now": a real theme button, without the default top margin so it lines up with the tagline */
 .tagline .btn-go {
-  margin: 0 0 0 8px;
+  margin: 20px 0 0 8px;
   white-space: nowrap;
 }
 

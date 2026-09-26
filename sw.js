@@ -1,4 +1,4 @@
-const CACHE = "labyrinth-maker-v2";
+const CACHE = "labyrinth-maker-v7";
 const ASSETS = [
   "./",
   "index.html",

@@ -89,6 +89,18 @@
         <div class="stage">
           <div id="labyrinth" class="canvas-box"></div>
           <p class="note" id="walk-note" aria-live="polite"></p>
+          <div class="panel walk-panel">
+            <h3>Walk</h3>
+            <div class="btns">
+              <button type="button" id="walk">Walk it</button>
+              <button type="button" id="reset" class="ghost">Start over</button>
+            </div>
+            <div class="ctl" style="margin-top: 12px">
+              <label for="speed">Pace</label
+              ><span class="val" id="speed-val"></span>
+              <input type="range" id="speed" min="1" max="20" step="1" />
+            </div>
+          </div>
         </div>
 
         <div class="side">
@@ -117,19 +129,6 @@
               <button type="button" id="random" class="ghost">
                 Surprise me
               </button>
-            </div>
-          </div>
-
-          <div class="panel">
-            <h3>Walk</h3>
-            <div class="btns">
-              <button type="button" id="walk">Walk it</button>
-              <button type="button" id="reset" class="ghost">Start over</button>
-            </div>
-            <div class="ctl" style="margin-top: 12px">
-              <label for="speed">Pace</label
-              ><span class="val" id="speed-val"></span>
-              <input type="range" id="speed" min="1" max="20" step="1" />
             </div>
           </div>
 
@@ -210,11 +209,18 @@
         </p>
         <p>
           You may also like
+          <a href="https://evoluteur.github.io/maze-maker/" target="_blank" rel="noopener">Maze Maker</a>,
           <a
             href="https://evoluteur.github.io/mandala-maker/"
             target="_blank"
             rel="noopener"
             >Mandala Maker</a
+          >,
+          <a
+            href="https://evoluteur.github.io/harmonograph-maker/"
+            target="_blank"
+            rel="noopener"
+            >Harmonograph Maker</a
           >,
           <a
             href="https://evoluteur.github.io/sacred-geometry/"

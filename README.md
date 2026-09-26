@@ -8,7 +8,7 @@ Draw a labyrinth right in your browser: the classical Cretan labyrinth, an 11-ci
 
 ## What it does
 
-A labyrinth is not a maze: it has a single path, with no choices, and the path always leads to the center.
+A labyrinth is not a maze: it has a single path, with no choices, and the path always leads to the center. (For mazes, with branches and dead ends, see [Maze-Maker](https://github.com/evoluteur/maze-maker).)
 
 - **Designs**: Cretan (7 circuits), Troy Town (11), the Chartres circuit order (11) drawn on one axis, a simple serpentine and the Cretan walked backwards.
 - **Path sequence**: type the circuits in the order you walk them, 1 being the outermost (the Cretan labyrinth is 3 2 1 4 7 6 5), and the labyrinth draws itself. If the walls would cross, the page says which turns clash. **Surprise me** picks a random valid sequence.
@@ -32,6 +32,6 @@ Labyrinth-Maker is open source at [GitHub](https://github.com/evoluteur/labyrint
 
 Had fun browsing the app? [Buy me a coffee by becoming a sponsor](https://github.com/sponsors/evoluteur).
 
-You may also be interested in my other sacred geometry projects [Mandala-Maker](https://github.com/evoluteur/mandala-maker) ([demo](https://evoluteur.github.io/mandala-maker/)) and [Sacred-Geometry](https://github.com/evoluteur/sacred-geometry) ([demo](https://evoluteur.github.io/sacred-geometry/)). For more mystic arts as small web apps, see [Esoterica](https://evoluteur.github.io/esoterica.html).
+You may also be interested in [Maze-Maker](https://github.com/evoluteur/maze-maker) ([demo](https://evoluteur.github.io/maze-maker/)), and in my other sacred geometry projects [Mandala-Maker](https://github.com/evoluteur/mandala-maker) ([demo](https://evoluteur.github.io/mandala-maker/)), [Harmonograph-Maker](https://github.com/evoluteur/harmonograph-maker) ([demo](https://evoluteur.github.io/harmonograph-maker/)) and [Sacred-Geometry](https://github.com/evoluteur/sacred-geometry) ([demo](https://evoluteur.github.io/sacred-geometry/)). For more mystic arts as small web apps, see [Esoterica](https://evoluteur.github.io/esoterica.html).
 
 Copyright (c) 2026 [Olivier Giulieri](https://evoluteur.github.io/).
